@@ -1,0 +1,27 @@
+{
+  "name": "luvit-static",
+  "version": "0.0.1",
+  "description": "Serve static files with luvit.io and Utopia",
+  "main": "init.lua",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:luvitrocks/luvit-static.git"
+  },
+  "keywords": [
+    "luvit",
+    "utopia",
+    "lua",
+    "middleware",
+    "static",
+    "server"
+  ],
+  "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luvitrocks/luvit-static/issues"
+  },
+  "homepage": "https://github.com/luvitrocks/luvit-static"
+}
