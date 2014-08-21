@@ -10,7 +10,7 @@ npm install luvit-static
 
 If you're not familiar with [npm](https://www.npmjs.org/) check this out:
 - https://github.com/voronianski/luvit-npm-example#how-to
-- https://github.com/luvitrocks/luvit-utopia#install
+- https://github.com/luvitrocks/luvit-module-boilerplate#whats-npm
 
 ## API
 
