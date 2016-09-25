@@ -1,16 +1,12 @@
 # luvit-static
 
-Serving static files middleware for [luvit.io](http://luvit.io) and [Utopia](https://github.com/luvitrocks/luvit-utopia).
+> Serving static files middleware for [luvit.io](http://luvit.io) and [Utopia](https://github.com/luvitrocks/luvit-utopia).
 
 ## Install
 
 ```bash
-npm install luvit-static
+lit install voronianski/static
 ```
-
-If you're not familiar with [npm](https://www.npmjs.org/) check this out:
-- https://github.com/voronianski/luvit-npm-example#how-to
-- https://github.com/luvitrocks/luvit-module-boilerplate#whats-npm
 
 ## API
 
@@ -27,11 +23,11 @@ Create middleware function to serve files from within a given ``root`` directory
 ## Example
 
 ```lua
-local utopia = require('luvit-utopia')
-local static = require('luvit-static')
+local Utopia = require('utopia')
+local static = require('static')
 local path = require('path')
 
-local app = utopia:new()
+local app = Utopia:new()
 
 local publicDir = path.join(__dirname, 'public')
 
@@ -44,7 +40,7 @@ app:listen(8080)
 
 MIT Licensed
 
-Copyright (c) 2014 Dmitri Voronianski [dmitri.voronianski@gmail.com](mailto:dmitri.voronianski@gmail.com)
+Copyright (c) 2014-2016 Dmitri Voronianski [dmitri.voronianski@gmail.com](mailto:dmitri.voronianski@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
