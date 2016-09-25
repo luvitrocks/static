@@ -28,7 +28,7 @@ local static = require('static')
 local path = require('path')
 
 local app = Utopia:new()
-
+local __dirname = module.dir
 local publicDir = path.join(__dirname, 'public')
 
 app:use(static(publicDir))
