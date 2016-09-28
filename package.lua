@@ -3,14 +3,14 @@ return {
   version = '1.0.4',
   description = 'Serve static files with luvit.io and Utopia',
   repository = {
-    url = 'http://github.com/luvitrocks/luvit-static.git',
+    url = 'http://github.com/luvitrocks/static.git',
   },
   tags = {'utopia', 'express', 'connect', 'middleware', 'server', 'static', 'files'},
   author = {
     name = 'Dmitri Voronianski',
     email = 'dmitri.voronianski@gmail.com'
   },
-  homepage = 'https://github.com/luvitrocks/luvit-static',
+  homepage = 'https://github.com/luvitrocks/static',
   licenses = {'MIT'},
   dependencies = {
     'voronianski/mimes'
