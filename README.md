@@ -1,6 +1,6 @@
-# luvit-static
+# Static
 
-> Serving static files middleware for [luvit.io](http://luvit.io) and [Utopia](https://github.com/luvitrocks/luvit-utopia).
+> Serving static files middleware for [luvit.io](http://luvit.io) and [Utopia](https://github.com/luvitrocks/luvit-utopia) server framework.
 
 ## Install
 
